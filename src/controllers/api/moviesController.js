@@ -6,7 +6,7 @@ const moment = require("moment");
 const formatDate = (fecha) => {
     return moment(fecha).format('YYYY-MM-DD');
 }
-console.log("Pase x el movieController de la API")
+console.log("Pase x el moviesController de la API")
 const moviesController = {
     
     list: async (req, res) => {

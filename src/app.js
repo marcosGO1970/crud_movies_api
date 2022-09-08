@@ -21,8 +21,8 @@ app.use(methodOverride('_method'));
 
 
 app.use('/', indexRouter);
-app.use('/movies', moviesRoutes);
-app.use('/genres', genresRoutes);
+app.use('/api/movies', moviesRoutes);
+app.use('/api/genres', genresRoutes);
 app.use('/actors', actorsRoutes);
 
 const port = process.env.PORT || "3001"

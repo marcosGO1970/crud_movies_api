@@ -1,5 +1,5 @@
 const { Genre } = require("../../database/models/")
-console.log("Pase x el genreController de la API")
+console.log("Pase x el genresController de la API")
 const genresController = {
 
     list: async (req, res) => {
